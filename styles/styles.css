@@ -26,6 +26,20 @@ p {
   font-family: "DM serif Display";
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -331,6 +345,12 @@ p {
   right: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .second_content h1 {
+    font-size: 5rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .hww {
     content: url(../images/bg-pattern-how-we-work-desktop.svg);
@@ -338,7 +358,7 @@ p {
 
   .second {
     text-align: left;
-    padding: 6rem;
+    padding: 5rem;
   }
 
   .second_content {
